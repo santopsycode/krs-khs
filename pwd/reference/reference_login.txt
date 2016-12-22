@@ -1,0 +1,13 @@
+
+
+-----------------------------------Pengertian Prepared Statements MySQL-----------------------------------------
+
+Prepared statements adalah sebuah fitur yang disediakan MySQL (dan juga beberapa aplikasi database lainnya), dimana kita bisa mengirim query (perintah) secara terpisah antara query inti dengan “data” dari query. Tujuannya, agar query menjadi lebih aman dan cepat (jika perintah yang sama akan digunakan beberapa kali).
+
+Sebagai perbandingan, untuk menampilkan data MySQL menggunakan fungsi mysqli_query(), kita membuat seluruh query dalam 1 string dan langsung mengirimkannya ke MySQL Server
+sumber:
+http://www.duniailkom.com/tutorial-php-mysql-pengertian-dan-cara-penggunaan-prepared-statements-mysqli/
+http://www.duniailkom.com/tutorial-php-mysql-cara-menggunakan-prepared-statements-dengan-pdo-php/
+
+
+================================================================================================================
